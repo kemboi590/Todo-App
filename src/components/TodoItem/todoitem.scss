@@ -1,4 +1,4 @@
-.item {
+.todo-item-todo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,17 +17,41 @@
       flex: 1;
       text-align: left;
     }
-  
-    button {
-      background: none;
-      border: none;
-      color: #555;
-      cursor: pointer;
-  
-      &:hover {
-        color: #333;
-      }
+
+.buttons{
+  display: flex;
+  gap:10px;
+
+  .edit-btn{
+    background-color: grey;
+    padding: 10px 15px;
+    border: none;
+    color: #555;
+    cursor: pointer;
+
+    &:hover {
+      color: #333;
     }
+  }
+
+ .delete-btn{
+    background-color: red;
+    padding: 10px 15px;
+
+    border: none;
+    color: #555;
+    cursor: pointer;
+
+    &:hover {
+      color: #333;
+    }
+  
+ }
+
+}
+    
+
+
   }
   
   .completed {
