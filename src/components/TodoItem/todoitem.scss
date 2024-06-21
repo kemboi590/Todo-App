@@ -1,0 +1,37 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+  
+    &:last-child {
+      border-bottom: none;
+    }
+  
+    input[type='checkbox'] {
+      margin-right: 10px;
+    }
+  
+    span {
+      flex: 1;
+      text-align: left;
+    }
+  
+    button {
+      background: none;
+      border: none;
+      color: #555;
+      cursor: pointer;
+  
+      &:hover {
+        color: #333;
+      }
+    }
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #d9d9d9;
+  }
+  

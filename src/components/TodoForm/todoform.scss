@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    margin-bottom: 20px;
+  
+    input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #555;
+      border-radius: 4px 0 0 4px;
+      outline: none;
+  
+      &:focus {
+        border-color: #333;
+      }
+    }
+  
+    button {
+      padding: 10px;
+      border: none;
+      background: #333;
+      color: white;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+  
+      &:hover {
+        background: darken(#333, 10%);
+      }
+    }
+  }
+  
